@@ -55,7 +55,7 @@ const ManberShip = () => {
                   <CardMedia
                     sx={{
                       width: {
-                        md: 100,
+                        md: 145,
                         sm: 311,
                       },
                       borderRadius: 3,
@@ -72,7 +72,7 @@ const ManberShip = () => {
                   <CardMedia
                     sx={{
                       width: {
-                        md: 100,
+                        md: 145,
                         sm: 308,
                       },
                       borderRadius: 3,

@@ -1,9 +1,11 @@
 import React from "react";
 import { Button, Carousel } from "react-bootstrap";
+import Navbar from "./Navbar";
 
 const Banner = () => {
   return (
-    <div>
+    <div style={{ zIndex: -5 }}>
+      <Navbar />
       <Carousel fade>
         <Carousel.Item>
           <img
@@ -11,6 +13,7 @@ const Banner = () => {
             style={{ width: "100vw", maxHeight: "100vh" }}
             alt=""
           />
+
           <Carousel.Caption>
             <h6>The Best Look</h6>
             <h3>AnyTime Anywhere</h3>

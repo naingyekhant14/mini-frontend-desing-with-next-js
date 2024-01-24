@@ -9,6 +9,10 @@ import ManberShip from "@/components/ManberShip";
 import NewReleased from "@/components/NewReleased";
 import Footer from "@/components/Footer";
 
+import BGSlider from "@/components/BgSlider";
+import BG1 from "@/components/BG1";
+import Navbar from "@/components/Navbar";
+
 const index = () => {
   return (
     <div>
@@ -16,6 +20,8 @@ const index = () => {
       <BestDetail />
       <ManberShip />
       <NewReleased />
+      <BG1 />
+      <BGSlider />
       <Footer />
     </div>
   );

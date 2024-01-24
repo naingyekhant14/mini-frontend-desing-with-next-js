@@ -18,7 +18,7 @@ import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 
 const Footer = () => {
   return (
-    <Container sx={{ mt: 5 }}>
+    <Container sx={{ mt: 10, bgcolor: "lightblue" }}>
       <Grid container spacing={3}>
         <Grid item sm={6} md={3}>
           <Typography variant="h6" sx={{ fontWeight: 500 }}>

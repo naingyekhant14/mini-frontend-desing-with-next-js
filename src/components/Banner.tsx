@@ -10,7 +10,7 @@ const Banner = () => {
         <Carousel.Item>
           <img
             src="/images/banner/1.png"
-            style={{ width: "100vw", maxHeight: "100vh" }}
+            style={{ width: "100vw", maxHeight: "95vh" }}
             alt=""
           />
 
@@ -24,7 +24,7 @@ const Banner = () => {
           <img
             src="/images/banner/3.png"
             alt=""
-            style={{ width: "100vw", maxHeight: "100vh" }}
+            style={{ width: "100vw", maxHeight: "95vh" }}
           />
           <Carousel.Caption>
             <h3>Second slide label</h3>
@@ -35,7 +35,7 @@ const Banner = () => {
           <img
             src="/images/banner/2.png"
             alt=""
-            style={{ width: "100vw", maxHeight: "100vh" }}
+            style={{ width: "100vw", maxHeight: "95vh" }}
           />
           <Carousel.Caption>
             <h3>Third slide label</h3>

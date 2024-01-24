@@ -8,6 +8,7 @@ const Navbar = () => {
   return (
     <Box
       sx={{
+        py: 1.5,
         display: "flex",
         bgcolor: "black",
         color: "white",
@@ -19,7 +20,7 @@ const Navbar = () => {
       <Typography variant="h6" sx={{ fontWeight: 900 }}>
         Mi Vape
       </Typography>
-      <Box style={{ display: "flex" }}>
+      <Box style={{ display: "flex", cursor: "pointer" }}>
         <SearchOutlinedIcon />
         <ShoppingCartOutlinedIcon sx={{ mx: 3 }} />
         <MenuOutlinedIcon />

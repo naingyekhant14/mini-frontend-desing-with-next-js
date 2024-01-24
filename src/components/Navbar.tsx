@@ -13,7 +13,7 @@ const Navbar = () => {
         bgcolor: "black",
         color: "white",
         justifyContent: "space-between",
-        px: 20,
+        px: { sm: 0, md: 20 },
         alignItems: "center",
       }}
     >
